@@ -20,7 +20,15 @@ public class cityInfo {
         return cityName;
     }
 
+    public void setCityPop(int cityPop){
+        this.cityPop = cityPop;
+    }
+
+    public void setCityName(String cityName){
+        this.cityName = cityName;
+    }
+
     public String toString() {
-        return cityName + " " + cityPop;
+        return cityName + "\t" + cityPop ;
     }
 }
